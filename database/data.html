@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Record</title>
+        <link rel="stylesheet" type="text/css" href="./data.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="first">
+            <h1 id="form-heading">
+                Add Student Details
+             </h1>
+            <form>
+            <div class="section">
+                <span class="heading"> 
+                    Roll No.
+                </span>
+                <input id="rollno" type="number" required/>
+            </div>    
+            <div class="section">
+                <span  class="heading">
+                    Name
+                </span>
+                <input id="name" type="text" required/>
+            </div>
+            <div class="section">
+                <span class="heading">
+                     Marks</span>
+                     <input id="marks" type="number" required/>
+            </div>
+        <button type="submit" id="button">Add Details</button>
+      </form>
+     </div>
+     <div id="record">
+        <ul type="none">
+            
+        </ul>
+     </div> 
+        <script type="text/javascript" src="./data.js"></script>
+    </body>
+</html>

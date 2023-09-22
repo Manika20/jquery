@@ -1,0 +1,46 @@
+*{
+   transition-duration: .5s;
+}
+
+#outer
+{
+  height:75vh;
+  width:80vw;
+  margin:auto;
+  margin-top:5%;
+  position:relative
+}
+#scroll
+{
+    height:7%;
+    width:20%;
+    border-radius: 20px;
+    border:2px solid black;
+    position: absolute;
+    left:40%;
+    top:45%;
+}
+.ball1
+{
+    position:absolute;
+    height:38px;
+    width:38px;
+    border-radius:50%; 
+    top:0;
+    background-color: black;
+}
+.ball2
+{
+    position:absolute;
+    height:38px;
+    width:38px;
+    background-color: white;
+    border-radius:50%;
+    left:84%; 
+}
+h1{
+    position:absolute;
+    left:35%;
+    top:55%;
+    font-size:3.0rem;
+}
